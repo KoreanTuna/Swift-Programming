@@ -32,4 +32,9 @@ func varAndLet() {
     let myName : String = "Minwoo Song"
     print("my name count : \(myName.count)") // "my name count : 11"
     
+    /// * Note
+    /// 실제로 타입 명시가 필요한 경우는 드뭅니다. 상수 또는 변수를 선언할 때 초기값을 지정하면
+    /// Swift는 타입 세이프티와 타입 추론 (Type Safety and Type Inference) 에서 나와있는대로 해당 상수 또는 변수에 사용될 타입을 거의 항상 유추할 수 있습니다.
+    /// 라고 한다. 타입 명시는 개발자의 가독성을 위한 용도라고 생각해도 되는걸까?
+
 }
